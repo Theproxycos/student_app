@@ -35,6 +35,7 @@ void main() async {
     // Inicializar Firebase apenas uma vez
     await Firebase.initializeApp(
       options: const FirebaseOptions(
+        apiKey: "AIzaSyDq9RHvJCE0Fv0KGl2M3v9nP39ri_YiTLk",
         authDomain: "campus-link-def.firebaseapp.com",
         projectId: "campus-link-def",
         storageBucket: "campus-link-def.firebasestorage.app",
