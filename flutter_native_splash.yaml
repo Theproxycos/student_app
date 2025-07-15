@@ -1,0 +1,17 @@
+flutter_native_splash:
+  color: "#ffffff"  # Cor de fundo da splash screen
+  image: assets/logo.png  # Imagem principal do splash
+  branding: assets/CampusLink.png  # Texto ou imagem para "Campus Link"
+  #branding_mode: bottom  # Posição da marca "Campus Link" na parte inferior
+
+  android_12:
+    image: assets/logo.png  # Logo centralizada para Android 12+
+    color: "#ffffff"  # Cor de fundo do Android 12
+    icon_background_color: "#42a5f5"  # Fundo da área do ícone para Android 12+
+    branding: assets/CampusLink.png  # Texto ou imagem para "Campus Link"
+    #branding_mode: bottom  # Posição da marca "Campus Link" na parte inferior
+
+  # Ativar splash para todas as plataformas
+  android: true
+  ios: true
+  web: true
